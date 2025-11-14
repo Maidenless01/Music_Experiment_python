@@ -1,17 +1,3 @@
-# This is SCRIPT 2: The NEW Fluid Visualizer
-#
-# This script reads the 'hybrid_analysis_data.npz' file.
-# It uses a particle system to create a "fluid" simulation.
-#
-# - AI Data controls particle COLOR.
-# - Beat Data triggers a "splash" and "shake".
-# - Frequency Data controls *where* particles spawn (bass=left, treble=right).
-# - Volume Data controls *how many* particles spawn (loud=more).
-#
-# NEW:
-# - Bass-heavy sound = "Lava" (slow, gooey, red/orange)
-# - Treble-heavy sound = "Water" (fast, splashy, blue/cyan)
-# - AI color is blended on top of the element color.
 
 import pygame
 import numpy as np
