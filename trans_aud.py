@@ -1,10 +1,3 @@
-# This is SCRIPT 1: The NEW Hybrid Analyzer
-#
-# It runs BOTH the librosa analysis (for beats, bpm, waves)
-# AND the Transformer analysis (for AI-driven color)
-# and saves it all to one file.
-#
-# This will be SLOW. Run it once per song.
 
 import librosa
 import numpy as np
